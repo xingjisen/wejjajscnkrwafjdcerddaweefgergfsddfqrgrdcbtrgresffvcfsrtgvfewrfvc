@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "global-list": "/components/globalList/globalList",
+    "bk-list": "/components/bk-list/bk-list"
+  }
+}

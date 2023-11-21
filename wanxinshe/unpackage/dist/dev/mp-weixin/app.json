@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/tabbar/tabbar-5/tabbar-5",
+    "pages/tabbar-1-detial/tabbar1_encyclopedia_of_cancer/tabbar1_encyclopedia_of_cancer",
+    "pages/tabbar-1-detial/tabbar1_encyclopedia_of_cancer_details/tabbar1_encyclopedia_of_cancer_details",
+    "pages/tabbar-5-detial/login/login",
+    "pages/tabbar-5-detial/authcode/authcode",
+    "pages/tabbar-1-detial/globalnewdrug/globalnewdrug",
+    "pages/tabbar-1-detial/clinicaltest/clinicaltest",
+    "pages/tabbar-1-detial/itemlist/itemlist",
+    "pages/tabbar-1-detial/projectdetails/projectdetails",
+    "pages/tabbar-1-detial/report_interpretation/report_interpretation",
+    "pages/tabbar-1-detial/gene_detection/gene_detection",
+    "pages/article/article",
+    "pages/tabbar-1-detial/welfare_assistance/welfare_assistance"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "height": "90",
+    "navigationStyle": "custom",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "color": "#afb0b4",
+    "selectedColor": "#5babff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "iconPath": "static/icon/cyclopedia11.png",
+        "selectedIconPath": "static/icon/cyclopedia1.png",
+        "text": "百科"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my.png"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/icon/case.png",
+        "selectedIconPath": "static/icon/case1.png",
+        "text": "电子病历"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "__usePrivacyCheck__": false,
+  "permission": {},
+  "usingComponents": {}
+}

@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.x_navBarBox.data-v-3077d852 {
+  background-color: #fff;
+}
+.x_navBarBox .x_navBar.data-v-3077d852 {
+  background-color: white;
+}
+.x_navBarBox .x_navBar .x_main_heading.data-v-3077d852 {
+  margin: 0 auto;
+  color: black;
+}
+.x_body.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.x_body .x_b_details.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+}
+.x_body .x_b_details > view.data-v-3077d852 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.x_body .x_b_details > view > view.data-v-3077d852:nth-child(2) {
+  margin-top: 0.625rem;
+  color: #569bff;
+}
+.x_body .x_b_details > view > view:nth-child(2) .x_img.data-v-3077d852 {
+  vertical-align: middle;
+  width: 0.4375rem;
+  height: 0.75rem;
+  margin-left: 0.3125rem;
+}
+.x_body .x_b_details1.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+  position: relative;
+}
+.x_body .x_b_details1 > view.data-v-3077d852 {
+  margin: 0 1.25rem;
+  display: flex;
+}
+.x_body .x_b_details1 > view .x_filleted_corner.data-v-3077d852 {
+  width: 3.75rem;
+  height: 5.625rem;
+  border-radius: 3.125rem 3.125rem 0 0;
+  background: linear-gradient(0deg, #4696ff 20%, #8DC9FF);
+}
+.x_body .x_b_details1 > view .x_filleted_corner > ._img.data-v-3077d852 {
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #eee;
+  margin: 0.3125rem 0 0 0.3125rem;
+  border-radius: 3.125rem;
+}
+.x_body .x_b_details1 > view .x_filleted_corner > view.data-v-3077d852 {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.3125rem;
+}
+.x_body .x_b_details1 > view .x_filleted_corner1.data-v-3077d852 {
+  width: 2.5rem;
+  height: 1.25rem;
+  background-color: #479DFF;
+  border-radius: 4.375rem 1.25rem 1.25rem 0;
+  position: absolute;
+  color: white;
+  font-size: 0.7rem;
+  line-height: 1.25rem;
+  text-align: center;
+  top: 1.25rem;
+  left: 4.375rem;
+}
+.x_body .x_b_details1 > view .x_filleted_corner2.data-v-3077d852 {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 3.125rem;
+  background-color: #5babff;
+  color: white;
+  text-align: center;
+  line-height: 2.8125rem;
+  font-size: 3rem;
+  margin: auto 1.25rem;
+}
+.x_body .x_b_msg.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 0.9375rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+}
+.x_body .x_b_msg .x_b_msg_bs.data-v-3077d852 {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.x_body .x_b_msg .x_b_msg_bs view.data-v-3077d852 {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.x_body .x_b_msg .x_b_msg_bs view ._img.data-v-3077d852 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: 0 0.5rem 0 0;
+}
+.x_body .x_b_msg .x_b_msg_bs view view.data-v-3077d852 {
+  margin-top: 0.0625rem;
+}
+.x_body .x_subscribe.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+  box-shadow: -0.0625rem  0.0625rem 0.3125rem #eee;
+}
+.x_body .x_subscribe .x_b_sub_bs.data-v-3077d852 {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+.x_body .x_subscribe .x_b_sub_bs > view.data-v-3077d852:nth-child(1) {
+  margin-top: 0.3125rem;
+}
+.x_body .x_subscribe .x_b_sub_bs .x_sub_button.data-v-3077d852 {
+  border: 0.0625rem solid #4f96ff;
+  padding: 0.1875rem 1.5625rem;
+  color: #4f96ff;
+  border-radius: 1.5625rem;
+}
+.x_body .x_icon_.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 0.625rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+}
+.x_body .x_icon_ .x_icon_s.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.x_body .x_icon_ .x_icon_s view.data-v-3077d852 {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #666666;
+}
+.x_body .x_icon_ .x_icon_s view ._img.data-v-3077d852 {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+.x_body .x_utabs.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  padding: 0.625rem 0;
+  border-radius: 0.3125rem;
+  background-color: white;
+  margin: 0.625rem 0;
+}
+.x_body .x_utabs .x_utabs_context.data-v-3077d852 {
+  color: #585858;
+}
+.x_body .x_utabs .x_utabs_context > view.data-v-3077d852 {
+  width: 77%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.625rem 0;
+}
+.x_body .x_utabs .x_utabs_context > view.data-v-3077d852:nth-child(1) {
+  margin-top: 3.125rem;
+}
+.x_body .x_utabs .x_utabs_context > view.data-v-3077d852:nth-child(3) {
+  width: 50%;
+}
+.x_body .x_utabs .x_utabs_context .x_popups.data-v-3077d852 {
+  width: 100%;
+  height: 12.5rem;
+  text-align: center;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_0 > view.data-v-3077d852:nth-child(1) {
+  width: 80%;
+  margin: 0.625rem auto;
+  height: auto;
+  color: #aaabb0;
+  font-size: 0.8rem;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_0 .x_for_item.data-v-3077d852 {
+  width: 90%;
+  margin: 1.25rem auto;
+  height: auto;
+  text-indent: 2rem;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records.data-v-3077d852 {
+  display: flex;
+  justify-content: center;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records view.data-v-3077d852 {
+  padding: 0.3125rem 1.25rem;
+  background-color: #45abff;
+  color: white;
+  margin: 0 0.625rem;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records view.data-v-3077d852:nth-child(1) {
+  border-radius: 1.25rem 0 0 1.25rem;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records view.data-v-3077d852:nth-child(2) {
+  border-radius: 0 1.25rem 1.25rem 0;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 0.625rem;
+  border-left: 0.0625rem solid #a6a7ac;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view.data-v-3077d852 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0.625rem 0;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view > view.data-v-3077d852:nth-child(1) {
+  display: flex;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view > view:nth-child(1) > view.data-v-3077d852 {
+  padding: 0 0.625rem 0 0;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view > view:nth-child(1) > view.data-v-3077d852:nth-child(1) {
+  font-size: 0.9 rem;
+  color: #a6a7ac;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view > view.data-v-3077d852:nth-child(2) {
+  display: flex;
+  margin: 0.625rem 0;
+  justify-content: space-around;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view > view:nth-child(2) ._img.data-v-3077d852 {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #45abff;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_0 > view .x_dot.data-v-3077d852 {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  background-color: #45abff;
+  border-radius: 0.3125rem;
+  position: absolute;
+  top: 0;
+  left: 0.8125rem;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_1.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 0.625rem;
+  border-left: 0.0625rem solid #a6a7ac;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_1 view > view.data-v-3077d852 {
+  position: relative;
+  font-size: 0.9rem;
+  color: #a6a7ac;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_1 view > view view.data-v-3077d852:nth-child(2) {
+  display: flex;
+  margin: 0.625rem 0;
+  justify-content: space-around;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_1 view > view view:nth-child(2) ._img.data-v-3077d852 {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #45abff;
+}
+.x_body .x_utabs .x_utabs_context1 .x_utabs_context1_1 .x_medical_records_1 view > view .x_dot01.data-v-3077d852 {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  background-color: #45abff;
+  border-radius: 0.3125rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0.8125rem;
+}
+.x_body .x_utabs .x_utabs_context1_2.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_friendly_reminder.data-v-3077d852 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 0.625rem;
+  font-size: 0.8rem;
+  color: #aaabb0;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record.data-v-3077d852 {
+  width: 100%;
+  height: auto;
+  border-left: 0.0625rem solid #4f96ff;
+  position: relative;
+  padding-left: 0.625rem;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record > view.data-v-3077d852:nth-child(2) {
+  padding: 0.625rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record > view:nth-child(2) > view.data-v-3077d852 {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  border: 0.0625rem solid #45abff;
+  border-radius: 0.3125rem;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record > view:nth-child(2) > view ._img.data-v-3077d852 {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record > view:nth-child(2) > view view.data-v-3077d852 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 2.5rem;
+}
+.x_body .x_utabs .x_utabs_context1_2 .x_upload_record .x_dot.data-v-3077d852 {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  background-color: #45abff;
+  border-radius: 0.3125rem;
+  position: absolute;
+  top: -0.3125rem;
+  left: -0.1875rem;
+}
+
